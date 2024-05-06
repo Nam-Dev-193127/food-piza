@@ -111,7 +111,22 @@ export default function RegisterPage(){
                 <Image src={'/google.png'} alt={''} width={24} height={24} />
                     Đăng nhập bằng Google
                     </button>
-                    {/* 1:58:54 */}
+                    <div
+                    className="
+                    text-center
+                    my-4
+                    text-gray-500
+                    border-t
+                    pt-4
+                    "
+                    >
+                    Tài khoản hiện tại?{''}<Link
+                    className="
+                    underline
+                    "
+                    href={'/login'}
+                    >Đăng nhập tại đây</Link>
+                    </div>
             </form>
         </section>    
     )
